@@ -5,6 +5,9 @@
 #          otherwise return 0
 # def guess(num: int) -> int:
 
+class guess:
+    pass
+
 def guessNumber(n: int) -> int:
     # Initialize variables to represent the leftmost and rightmost boundaries of the search range
     left, right = 1, n
