@@ -40,3 +40,13 @@ This repository contains Python files related to the Data Structures and Algorit
 
 #### Usage:
 - Learn and develop python problem solving skills that may come up in interviews or future projects.
+
+### 4. [`IntroductionToPandas`](IntroductionToPandas)
+
+#### Description:
+- Explores fundamental concepts and functionalities of the Pandas library in Python.
+- Covers essential techniques for data manipulation, analysis, and exploration using Pandas.
+
+#### Usage:
+- Gain foundational knowledge of Pandas for data handling tasks in data science, machine learning, and other data-related projects.
+- Understand how to work with tabular data effectively, perform data cleaning, transformation, and analysis using Pandas.
