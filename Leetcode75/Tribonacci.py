@@ -1,23 +1,21 @@
-# Function to calculate the nth tribonacci number
+# Function to calculate the nth tribonacci number iteratively
 def tribonacci(n: int) -> int:
-    # Helper function to calculate fibonacci number recursively
-    def fib(n):
-        # Base cases
-        if n == 0:
-            return 0
-        if n == 1:
-            return 1
-        if n == 2:
-            return 1
-        # If the value is already computed, return it
-        elif dp[n] != -1:
-            return dp[n]
-        # Calculate the tribonacci number recursively
-        dp[n] = fib(n - 1) + fib(n - 2) + fib(n - 3)
-        return dp[n]
+    # Initialize tribonacci sequence values
+    p1, p2, p3 = 1, 1, 0
+    
+    # Handle base cases
+    if n == 0:
+        return p3
+    elif n == 1:
+        return p2
+    elif n == 2:
+        return p1
 
-    # Initialize the dynamic programming array with -1
-    dp = [-1] * (n + 1)
-    # Calculate the nth tribonacci number
-    a = fib(n)
-    return a
+    # Calculate tribonacci number iteratively
+    output = 0
+    for i in range(3, n+1):
+        output = p1 + p2 + p3
+        p3, p2, p1 = p2, p1, output
+    return output
+
+print(tribonacci(5))
