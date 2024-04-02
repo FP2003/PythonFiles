@@ -21,3 +21,4 @@ def increasingTriplet(nums: List[int]) -> bool:
     return False
 
 print(increasingTriplet([1,2,3,4,5]))
+#Test
