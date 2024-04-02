@@ -18,3 +18,4 @@ def pivotIndex(nums: List[int]) -> int:
     return -1
 
 print(pivotIndex([1,7,3,6,5,6]))
+#Test
