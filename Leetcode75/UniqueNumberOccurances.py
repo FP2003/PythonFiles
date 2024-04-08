@@ -7,7 +7,7 @@ def uniqueOccurrences(arr: List[int]) -> bool:
     # Count the occurrences of each element in the list
     occurrence_counter = Counter(arr)
     # Iterate over the items in the Counter object
-    for number, count in occurrence_counter.items():
+    for count in occurrence_counter.items():
         # Check if the count has already been encountered
         if count not in unique_counts:
             # If count is unique, add it to the list
