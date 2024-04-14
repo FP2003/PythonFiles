@@ -52,7 +52,7 @@ This repository contains Python files related to the Data Structures and Algorit
 - Understand how to work with tabular data effectively, perform data cleaning, transformation, and analysis using Pandas.
 
 
-### 5. [`TopInterview150`](TopInterview150)
+### 6. [`TopInterview150`](TopInterview150)
 
 #### Description:
 - A collection of popular coding interview questions commonly asked by top tech companies.
