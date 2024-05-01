@@ -60,7 +60,7 @@ This repository contains Python files related to the Data Structures and Algorit
 #### Usage:
 - Contains solutions to common coding interview problems.
 
-### 7. [`Monte Carlo Simulation`](Monte Carlo Simulation)
+### 7. [`Monte Carlo Simulation.py`](Monte Carlo Simulation.py)
 
 #### Description:
 - The Monte Carlo simulation is a probabilistic model that can include an element of uncertainty or randomness in its prediction.
