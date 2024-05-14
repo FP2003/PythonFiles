@@ -21,3 +21,5 @@ def canJump(nums: List[int]) -> bool:
         return True
     # If not, return False
     return False
+
+print(canJump([2,3,1,1,4]))
